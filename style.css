@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+  /* ROSAS */
+  --rosa-principal: #E85D75;
+  --rosa-claro: #F28CA2;
+  --rosa-suave: #FDECEF;
+
+  /* MARROM */
+  --marrom-escuro: #5A2E2E;
+  --marrom-medio: #8B5E3C;
+  --marrom-claro: #D7B8A3;
+
+  /* NEUTROS */
+  --bege: #F7EDE2;
+  --bege-claro: #FFF8F3;
+  --cinza: #8C8C8C;
+
+  /* VERDE */
+  --verde: #8DAA7D;
+  --verde-escuro: #6F8F63;
+
+  /*fontes*/
+  font-family: "Poppins", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: 'Great Vibes';
+}
+
+body {
+    background-color: var(--bege-claro);
+}
+
+/* HEADER-MENU*/
+
+.container {
+width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+.menu-header ul {
+    text-transform: uppercase;
+    font-size: 13px;
+    display: flex;
+    gap: 60px;
+    margin-top: 90px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+.menu-header button {
+    font-family: "Poppins", sans-serif;
+    margin-right:100px;
+    margin-bottom: 30px;
+    border: 1px solid var(--rosa-principal);
+    background-color: var(--rosa-principal);
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+    padding:8px 20px
+}
+.menu-header ul li  {
+    margin-top: 8px;
+    position: relative;
+}
+.menu-header ul li::after {
+    content:'';
+    position: absolute;
+    left: 0;
+    top: 17px;
+    width: 0px;
+    height: 2px;
+    background-color:var(--rosa-principal) ;
+    transition: 0,5s;
+}
+.menu-header ul li:hover::after {
+    width: 100%;
+}
+
+.menu-header li a {
+    color: var(--marrom-escuro)
+}
+button a {
+    color: var(--bege-claro)
+}
+
+/*banner*/
+
+.banner {
+    background-image: url(imagens/banner.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.content-banner {
+    width: 29%;
+    margin-left: 135px;
+}
+.content-banner span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--marrom-medio);
+}
+.content-banner h1 {
+font-size: 98px;
+color: var(--marrom-escuro);
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.content-banner h2 {
+    font-size: 60px;
+    color: var(--rosa-principal);
+    font-family: 'Great Vibes';
+    text-transform: none;
+}
+.content-banner p {
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 30px;
+}
+.content-banner button {
+    font-family: "Poppins", sans-serif;
+    margin-right:100px;
+    margin-bottom: 30px;
+    color: var(--bege);
+    border: 1px solid var(--rosa-principal);
+    background-color: var(--rosa-principal);
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+    padding:8px 20px
+}
