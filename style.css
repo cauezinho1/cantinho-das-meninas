@@ -170,6 +170,94 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     left: 50%;
 }
 
+/*NOSSOS PRODUTOS*/
+
+.produtos {
+    text-align: center;
+    padding-top: 50px;
+    cursor: pointer;
+}
+.content-produtos span {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    color: var(--marrom-medio);
+    font-weight: 600;
+    
+    
+}
+.content-produtos h1 {
+    font-size: 40px;
+    color: var(--marrom-escuro);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 40px;
+    }
+.produtos-lista {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+}
+.produtos-lista a {
+    color: var(--marrom-escuro)
+    
+}
+.produtos-lista li {
+    border: 1px solid var(--´bege);
+    border-radius: 10px;
+    background-color: var(--bege);
+    color: var(--bege);
+    padding: 5px 35px ;
+    transition: 0.5s;
+}
+.produtos-lista li:hover {
+    background-color:var(--rosa-principal) ;
+    color: var(--bege);
+}
+
+.card-produtos {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly
+    
+}
+.wrappers {
+    padding-bottom: 23px;
+    transform: scale(1.03);
+    border: 1px solid var(--marrom-medio);
+    border-radius: 10px
+}
+
+.wrappers h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: var(--marrom-escuro);
+    padding-top: 15px;
+}
+.wrappers p {
+     font-family: "Poppins", sans-serif;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     font-size: 15px;
+     width: 200px;
+     margin-left: 43px;
+     color: var(--marrom-escuro ); 
+}
+.wrappers button {
+     border: 1px solid var(--rosa-principal);
+     border-radius: 10px ;
+     padding: 5px 15px;
+     margin-top: 5px;
+     color: var(--marrom-escuro);
+     background-color: var(--bege-claro);   
+     cursor: pointer;    
+}
+.wrappers button:hover {
+    background-color:var(--rosa-principal) ;
+    color: var(--bege);
+}
+.wrappers-card:hover {
+    transform: scale(1.03);
+    transition: transform 0.3s ease;
+}
+
 
 
 
