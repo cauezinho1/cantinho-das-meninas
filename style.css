@@ -330,5 +330,38 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     padding:8px 20px
 }
 
+/* BANNER VERDE*/
+
+.banner-verde{
+    background-image: url(imagens/Banner-verde.jpeg);
+    background-position: center;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.banner-verde-content {
+    display: flex;
+    justify-content: space-around;
+    color: var(--bege);
+    cursor: pointer;
+}
+.banner-verde-content p {
+    font-family: "Poppins", sans-serif;
+}
+.banner-icons{
+    width: 15%;
+    text-align: center;
+}
+.banner-icons svg {
+    width: 40px;
+    height: 40px;
+}
+.banner-icons:not(:last-child) {
+    border-right: 1px solid var(--bege-claro);
+    padding-right: 150px;
+}
+
+
 
 
