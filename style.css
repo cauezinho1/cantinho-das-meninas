@@ -431,3 +431,50 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 .redes-sociais button a:hover {
     color: var(--marrom-medio);
 }
+
+/*FOOTER*/
+
+.banner-footer {
+    display: flex;
+    background-color: var(--marrom-escuro);
+    margin-top: 50px;
+    padding: 20px 100px;
+}
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+    color: var(--cinza);
+    padding: 20px;
+    border-bottom: var(--bege-claro) 1px solid;
+}
+.footer-navegacao h1 {
+    font-size: 15px;
+    gap: 20px;
+    text-transform: uppercase;
+    color: var(--bege-claro);
+}
+.footer-navegacao li a {
+    color: var(--bege-claro);
+    font-size: 14px;
+    cursor: pointer;
+    color: var(--marrom-claro);
+}
+.copyright-footer {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+    padding: 20px;
+}
+.copyright-footer h1 {
+    font-size: 12px;
+    gap: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--bege-claro);
+}
+.copyright-footer p {
+    color: var(--bege-claro);
+    font-size: 12px;
+}
