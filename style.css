@@ -362,6 +362,72 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     padding-right: 150px;
 }
 
+/*CONTATOS*/
 
+.contatos {
+    text-align: center;
+}
+.contatos-conosco span {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    color: var(--marrom-medio);
+    font-weight: 600;
+}
+.contatos-conosco h1 {
+    font-size: 40px;
+    color: var(--marrom-escuro);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.coracao-linha {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
-
+.coracao-linha-contato {
+    position: absolute;
+    left: 40%;
+    margin-top: -3%;
+}
+.redes-sociais {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    padding-top: 2%; 
+    cursor: pointer;
+    
+}
+.redes-sociais h1 {
+    font-size: 20px;
+    padding: 5px;
+    color: var(--marrom-escuro);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.redes-sociais p {
+    padding: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: var(--cinza);
+}
+.redes-sociais button {
+    border: 1px solid var(--marrom-medio);
+    border-radius: 5px;
+    padding: 5px 10px ;
+    background-color: var(--bege);
+}
+.card-redes-sociais {
+    width: 28%;
+    border-radius: 5px;
+    padding: 20px 20px;
+    background-color: var(--bege);
+    border: 1px solid var(--marrom-claro)
+}
+.card-redes-sociais a {
+    color: var(--marrom-escuro);
+}
+.redes-sociais button a:hover {
+    color: var(--marrom-medio);
+}
