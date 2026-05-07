@@ -145,29 +145,28 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
+    width: 40%;
+    height: 50%;
+    
 }
 
 .heart {
     position: absolute;
     width: 300px;
     height: 300px;
-    bottom: 300px;
-    right: 59%;
+    top: 219px;
+    left: 500px;
 }
 .heart-dois {
     position: absolute;
     width: 300px;
-    bottom: 20px;
-    left: 0%;
+    bottom: 53px;
+    left: 242px;
 }
 .heart-tres {
     position: absolute;
     width: 300px;
-    bottom: 520px;
-    left: 50%;
+    top: 685px;
 }
 
 /*NOSSOS PRODUTOS*/
